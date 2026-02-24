@@ -73,7 +73,7 @@ img {
 .cta {
   padding: 10px 18px;
   border-radius: 999px;
-  background: var(--ink);
+  background: #000000;
   color: var(--cream);
   font-weight: 600;
 }
@@ -123,12 +123,14 @@ img {
 }
 
 .primary {
-  background: var(--sunset);
-  color: #1b1324;
+  background: #000000;
+  color: #f6f1fb;
 }
 
 .secondary {
-  border-color: rgba(43, 27, 63, 0.25);
+  background: #000000;
+  color: #f6f1fb;
+  border-color: #000000;
 }
 
 .hero-card {
@@ -186,8 +188,13 @@ img {
   position: relative;
   border-radius: 18px;
   overflow: hidden;
-  min-height: 220px;
+  aspect-ratio: 3 / 2;
   box-shadow: 0 14px 30px var(--shadow);
+}
+
+.tile-link {
+  display: block;
+  height: 100%;
 }
 
 .tile figcaption {
@@ -201,11 +208,11 @@ img {
 }
 
 .tile.tall {
-  grid-row: span 2;
+  aspect-ratio: 2 / 3;
 }
 
 .tile.wide {
-  grid-column: span 2;
+  aspect-ratio: 3 / 2;
 }
 
 .about {
@@ -281,7 +288,7 @@ img {
   padding: 12px 16px;
   border: none;
   border-radius: 12px;
-  background: var(--ink);
+  background: #000000;
   color: var(--cream);
   font-weight: 600;
   cursor: pointer;
@@ -323,7 +330,7 @@ img {
   }
 
   .tile.wide {
-    grid-column: span 1;
+    aspect-ratio: 3 / 2;
   }
 
   .stats {
@@ -367,7 +374,6 @@ img {
 
   .tile.tall,
   .tile.wide {
-    grid-column: auto;
-    grid-row: auto;
+    aspect-ratio: 3 / 2;
   }
 }
