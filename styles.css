@@ -1,10 +1,10 @@
 :root {
-  --ink: #1a1a1a;
-  --cream: #f7f2ea;
-  --sage: #c7d0c3;
-  --sunset: #f4a261;
-  --clay: #d7b59d;
-  --shadow: rgba(26, 26, 26, 0.18);
+  --ink: #2b1b3f;
+  --cream: #f6f1fb;
+  --sage: #d9c7f0;
+  --sunset: #b68cf0;
+  --clay: #e0c7ff;
+  --shadow: rgba(46, 29, 77, 0.2);
 }
 
 * {
@@ -16,7 +16,7 @@
 body {
   font-family: "Space Grotesk", sans-serif;
   color: var(--ink);
-  background: radial-gradient(circle at top left, #f1e7db 0%, #f7f2ea 45%, #e7ede6 100%);
+  background: radial-gradient(circle at top left, #efe6ff 0%, #f6f1fb 45%, #e9e1f6 100%);
   min-height: 100vh;
 }
 
@@ -67,7 +67,7 @@ img {
 }
 
 .nav a:hover {
-  background: rgba(26, 26, 26, 0.08);
+  background: rgba(43, 27, 63, 0.08);
 }
 
 .cta {
@@ -124,11 +124,11 @@ img {
 
 .primary {
   background: var(--sunset);
-  color: #1b1b1b;
+  color: #1b1324;
 }
 
 .secondary {
-  border-color: rgba(26, 26, 26, 0.2);
+  border-color: rgba(43, 27, 63, 0.25);
 }
 
 .hero-card {
@@ -142,7 +142,7 @@ img {
 
 .hero-photo {
   border-radius: 18px;
-  background: linear-gradient(135deg, #c7d0c3, #d7b59d);
+  background: linear-gradient(135deg, #cbb0f5, #e0c7ff);
   height: 320px;
 }
 
@@ -196,7 +196,7 @@ img {
   bottom: 14px;
   padding: 8px 12px;
   border-radius: 999px;
-  background: rgba(247, 242, 234, 0.9);
+  background: rgba(246, 241, 251, 0.9);
   font-weight: 600;
 }
 
@@ -272,8 +272,8 @@ img {
   width: 100%;
   padding: 12px 14px;
   border-radius: 12px;
-  border: 1px solid rgba(26, 26, 26, 0.2);
-  background: rgba(247, 242, 234, 0.9);
+  border: 1px solid rgba(43, 27, 63, 0.2);
+  background: rgba(246, 241, 251, 0.9);
   font-family: inherit;
 }
 
@@ -291,7 +291,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid rgba(26, 26, 26, 0.1);
+  border-top: 1px solid rgba(43, 27, 63, 0.12);
   padding-top: 24px;
   font-size: 0.95rem;
 }
